@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web-service", ".", "{7C049906-D614-46E8-A780-6BE0B4252871}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/web-service"
+		Debug.AspNetCompiler.PhysicalPath = "..\web-service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\web-service\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/web-service"
+		Release.AspNetCompiler.PhysicalPath = "..\web-service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\web-service\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57677"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "llamando", "..\llamando\llamando.csproj", "{32700FDE-A62E-47D0-942B-CE9E42303C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C049906-D614-46E8-A780-6BE0B4252871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C049906-D614-46E8-A780-6BE0B4252871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C049906-D614-46E8-A780-6BE0B4252871}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C049906-D614-46E8-A780-6BE0B4252871}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{32700FDE-A62E-47D0-942B-CE9E42303C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32700FDE-A62E-47D0-942B-CE9E42303C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32700FDE-A62E-47D0-942B-CE9E42303C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32700FDE-A62E-47D0-942B-CE9E42303C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
